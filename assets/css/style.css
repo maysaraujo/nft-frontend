@@ -1,0 +1,125 @@
+/* estrutura do site */
+
+body {
+  font-size: 18px;
+  font-family: "Outfit";
+  font-weight: 200;
+  background-color: hsl(217, 54%, 11%);
+  width: 1440px;
+  margin: 20px;
+}
+
+#container {
+  width: 310px;
+  height: 520px;
+  padding: 25px;
+  background-color: hsl(216, 50%, 16%);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 10px 10px;
+}
+
+/* imagem principal */
+
+#logo {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  border-radius: 10px 10px;
+}
+
+/* estilização */
+
+header > h4 {
+  color: hsl(215, 51%, 70%);
+  position: relative;
+  left: 0.3em;
+}
+
+#equilibrium {
+  color: hsl(0, 0%, 100%);
+  font-weight: bold;
+  position: relative;
+  left: 0.3em;
+}
+
+#equilibrium:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+  transition: 1s;
+}
+
+/* idk */
+
+section#idk {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#ethereum {
+  width: 11px;
+  height: 18px;
+  position: relative;
+  right: 0.1em;
+}
+
+#clock {
+  width: 17px;
+  height: 17px;
+  position: relative;
+  left: 6.5em;
+}
+
+#eth {
+  color: hsl(178, 100%, 50%);
+  position: relative;
+  bottom: 1.7em;
+  right: 0.3em;
+}
+
+#days {
+  color: hsl(215, 51%, 70%);
+  position: relative;
+  left: 7.5em;
+  bottom: 1.7em;
+}
+
+/* profile */
+
+#borda {
+  position: relative;
+  border: 1px outset hsl(215, 51%, 70%);
+  bottom: 1.5em;
+  opacity: 0.3;
+}
+
+#creation {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  bottom: 0.8em;
+  border-radius: 30px;
+  border: 1px solid hsl(0, 0%, 100%);
+}
+
+#jules {
+  color: hsl(215, 51%, 70%);
+  position: relative;
+  bottom: 4.5em;
+  left: 3.2em;
+}
+
+.white {
+  color: hsl(0, 0%, 100%);
+}
+
+.white:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+  transition: 1s;
+}
