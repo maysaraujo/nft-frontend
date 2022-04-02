@@ -3,9 +3,14 @@
 ## Table of contents
 
 - [Overview](#overview)
-  - [The Challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [The Process](#the-process)
   - [Built with](#built-with)
 - [Author](#author)
+
+## Overview
+
+### Screenshot
+
+![screenshot]
